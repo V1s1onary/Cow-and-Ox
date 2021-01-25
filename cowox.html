@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CowAndOx</title>
+</head>
+<style type="text/css">
+	
+div.count{
+
+	width: 44%;
+	height: 80%;
+	border-width: 3px;
+	font-size: 19px;
+	color: yellow;
+	margin-left: 50px;
+	margin-top: 100px;
+	border: solid;
+	position: absolute;
+	background-color: green
+}
+
+</style>
+<body>
+
+
+	<p>
+		
+Приветствуем тебя в игре быки и коровы
+если хочешь сыграть просто введи 4-ох значное цисло в бокс и нажми "Угадать"<br>
+Не забывай-ЦЫФРЫ КОТОРЫЕ БОТ ЗАГАДАЛ <br>
+Не ПОВТОРЯЮТСЯ
+
+	</p>
+<textarea placeholder="Введите 4-ох значное число" maxlength="4" width="40px"
+height="10px" id="area">
+</textarea>
+
+	<div class="count" id="count" align="center">
+		
+     <p>Ваши ходы</p>
+    <p id="ggg">
+    	
+    </p>
+
+	</div>
+
+	<button id="play" onclick="com();">Угадать</button>
+	<button id="retry" onclick="moc();">Заново</button>
+
+</body>
+<script src="cowox.js"></script>
+</html>
